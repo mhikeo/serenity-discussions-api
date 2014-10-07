@@ -1,2 +1,8 @@
 app:
   port: 10010
+  pg:
+    database: serenity_discussions
+    username: postgres
+    password: ''
+    host: localhost
+    port: ''
