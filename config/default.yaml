@@ -6,3 +6,4 @@ app:
     password: ''
     host: localhost
     port: ''
+  pgURL: 'postgres://postgres@localhost/serenity_discussions'
