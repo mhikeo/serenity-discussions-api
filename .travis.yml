@@ -8,3 +8,6 @@ services: postgresql
 before_script:
   - psql -c "CREATE DATABASE serenity_discussions;" -U postgres
   - grunt
+
+script:
+  - grunt test
